@@ -1,0 +1,10 @@
+定位
+$ cd /D/Git_repo/test
+查看
+$ ls
+添加
+$ git add filename.txt
+备注
+$ git commit -m "label"
+上传
+$ git push origin master
