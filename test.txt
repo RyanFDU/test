@@ -8,3 +8,9 @@ $ git add filename.txt
 $ git commit -m "label"
 上传
 $ git push origin master
+删除(拉回-查看-删除-说明-重新上传)
+$ git pull origin master
+$ dir
+$ git rm -r --cached readme.txt 
+$ git commit -m '删除了readme.txt'
+$ git push origin master
