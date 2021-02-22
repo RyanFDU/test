@@ -4,7 +4,7 @@ $ cd /D/Git_repo/test
 $ ls
 添加
 $ git add filename.txt
-备注
+提交
 $ git commit -m "label"
 上传
 $ git push origin master
