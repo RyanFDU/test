@@ -1,14 +1,14 @@
-定位
+__定位__
 $ cd /D/Git_repo/test
-查看
+__查看__
 $ ls
-添加
+__添加__
 $ git add filename.txt
-提交
+__提交__
 $ git commit -m "label"
-上传
+__上传__
 $ git push origin master
-删除(拉回-查看-删除-说明-重新上传)
+__删除(拉回-查看-删除-说明-重新上传)__
 $ git pull origin master
 $ dir
 $ git rm -r --cached readme.txt 
