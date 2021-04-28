@@ -1,7 +1,10 @@
 ### 卸载：
 打开Powershell
-`wslconfig /l`  #显示出你安装的列表。
+
+`wslconfig /l`  #显示出你安装的列表
+
 `wslconfig /u debian` #debian为上述列表中的名字
+
 打开开始菜单，右键卸载掉
 
 ---
