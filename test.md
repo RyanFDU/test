@@ -98,15 +98,15 @@ deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restri
 
 ---
 ## 更换安装路径：
-[具体参考](https://blog.csdn.net/qq_41233171/article/details/106268552)
-#### 打开PowerShell
-
-`LxRunOffline list` 查看版本
-
-`LxRunOffline move -n {version} -d {dir}` 更换路径，如：`LxRunOffline move -n Ubuntu-20.04 -d D:\WinLinux`
+[reference](https://blog.csdn.net/qq_41233171/article/details/106268552)
+#### 打开PowerShell查看版本
+`LxRunOffline list` 
+#### 更换路径，如：`LxRunOffline move -n Ubuntu-20.04 -d D:\WinLinux`
+`LxRunOffline move -n {version} -d {dir}`
 
 ---
-## 修改SSH以便git clone
+## 修改SSH以便git clone(注意最后一步)
+[reference](https://blog.cofface.com/archives/2971.html)
 #### 安装一些必要的环境和依赖
 `sudo apt-get install build-essential fakeroot dpkg-dev`
 #### 创建一个名为git-rectify的路径
