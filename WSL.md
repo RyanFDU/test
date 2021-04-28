@@ -138,3 +138,18 @@ deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restri
 
 `sudo service ssh --full-restart`
 
+## 安装可视化远程桌面
+[reference](https://blog.csdn.net/xmh19936688/article/details/90212960)
+#### 安装桌面环境xubuntu
+`sudo apt install xubuntu-desktop`
+#### 安装远程桌面服务xrdp
+`sudo apt install xrdp`
+#### 配置xrdp端口
+`sudo sed -i 's/port=3389/port=3390/g' /etc/xrdp/xrdp.ini`
+#### 配置xsession
+`sudo echo xfce4-session >~/.xsession`
+#### 重启电脑
+#### 启动xrdp
+`sudo service xrdp restart`
+#### 远程连接
+**远程桌面中输入`localhost:3390`即可**
