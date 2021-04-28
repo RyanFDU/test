@@ -1,5 +1,5 @@
 ## 卸载：
-### 打开Powershell
+#### 打开Powershell
 
 `wslconfig /l`  #显示出你安装的列表
 
@@ -15,10 +15,10 @@
 
 ---
 ## 换源
-### 打开列表
+#### 打开列表
 `sudo vim sources.list`
 
-### 替换为
+#### 替换为
 
 `#阿里云
 
@@ -86,19 +86,20 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restricted
 
 deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse`
 
-### 保存并退出
+#### 保存并退出
 
 `Esc`
 `:wq`
 
-### 更新
+#### 更新
 
 `sudo apt-get update`
 `sudo apt-get upgrade`
 
 ---
-## 更换安装路径：[具体参考](https://blog.csdn.net/qq_41233171/article/details/106268552)
-### 打开PowerShell
+## 更换安装路径：
+[具体参考](https://blog.csdn.net/qq_41233171/article/details/106268552)
+#### 打开PowerShell
 
 `LxRunOffline list` 查看版本
 
@@ -106,4 +107,4 @@ deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restri
 
 ---
 ## 修改SSH以便git clone
-### 安装一些必要的环境和依赖
+#### 安装一些必要的环境和依赖
