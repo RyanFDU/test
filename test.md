@@ -1,5 +1,5 @@
 ## 卸载：
-###打开Powershell
+### 打开Powershell
 
 `wslconfig /l`  #显示出你安装的列表
 
