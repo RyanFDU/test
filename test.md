@@ -126,14 +126,14 @@ deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restri
 
 `gedit ./debian/rules # 把TEST =test整行删除`
 
-需先安装 `sudo apt-get install gedit`
+**此处需先安装** `sudo apt-get install gedit`
 #### 编译和构建安装包
 `sudo dpkg-buildpackage -rfakeroot -b`
 #### 退回上一级目录，安装编译好的安装包
 `cd ..`
 
 `sudo dpkg -i git_2.25.1-1ubuntu3_amd64.deb`
-#### WSL自带的SSH有点的问题，要remove并重新install，然后修改配置文件中的端口并重启ssh服务
+#### WSL自带的SSH有点问题，要remove并重新install，然后修改配置文件中的端口并重启ssh服务
 `sudo apt autoremove --purge openssh-server -y && sudo apt install openssh-server -y`
 
 `sudo service ssh --full-restart`
