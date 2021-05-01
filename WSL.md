@@ -138,6 +138,7 @@ deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restri
 
 `sudo service ssh --full-restart`
 
+---
 ## 安装可视化远程桌面
 [reference](https://blog.csdn.net/xmh19936688/article/details/90212960)
 #### 安装桌面环境xubuntu
@@ -154,6 +155,7 @@ deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restri
 #### 远程连接
 **远程桌面中输入`localhost:3390`即可**
 
+---
 ## WSL1升级WSL2
 [reference](https://blog.csdn.net/qq_35333978/article/details/113177819)
 #### 下载并安装msi升级文件
