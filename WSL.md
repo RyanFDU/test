@@ -153,3 +153,18 @@ deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restri
 `sudo service xrdp restart`
 ### 远程连接
 **远程桌面中输入`localhost:3390`即可**
+
+## WSL1升级WSL2
+[reference](https://blog.csdn.net/qq_35333978/article/details/113177819)
+#### 下载并安装msi升级文件
+[link](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+#### 以管理员身份打开Powershell
+`wsl --set-default-version 2` 将WSL2设置为默认版本
+#### 查看当前版本号
+`wsl -l -v`
+#### 执行升级指令
+`wsl --set-version Ubuntu-20.04 2`
+
+若要更换回WSL1则将最后2改为1即可
+#### 确认升级成功
+`wsl -l -v`
